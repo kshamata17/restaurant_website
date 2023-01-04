@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:rgb(236, 212, 212);
+}
+.section1{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    color: white;
+    /* padding: 10px; */
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.section1 .header{
+    /* display: inline-block; */
+    margin: 0 auto;
+    padding: 3px;
+}
+h1{
+    margin: 10px;
+    font-size: 30px;
+}
+p{
+    margin: 10px;
+    font-size: 15px;
+}
+.section2{
+    padding: 10px;
+    margin: 20px;
+    
+}
+.section2 .form{
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 100px 0 100px;
+}
+.form h2{
+    color: rgb(240, 90, 90);
+}
+.section2 .form .card{
+    /* margin: 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card label{
+    font-size: 20px;
+}
+.card input{
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    background: rgb(240, 90, 90);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}

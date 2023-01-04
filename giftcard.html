@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card</title>
+    <link rel="stylesheet" href="giftcard.css">
+</head>
+<body>
+    <div class="section1">
+        <div class="header">
+            <h1>HAMRO KITCHEN</h1>
+            <p>Phone: 0123456789</p>
+        </div>
+    </div>
+    <div class="section2">
+            <div class="image-container">
+                <img src="images/giftcard.jpg" alt="">
+            </div>
+        <div class="container">
+            <div class="wrapper">
+                <h2>Give a Gift</h2>
+                <div class="form-cont">
+                    <h3>Choose Amount</h3>
+                    <div class="form1">
+                        <span>$</span>
+                        <input id="amount" type="number">
+                    </div>
+                    <h3>Personalize</h3>
+                    <div class="form1">
+                        <form>
+                            <div class="input-field">
+                                <label for="to">To</label>
+                                <br>
+                                <input type="text" id="to">
+                                <br>
+                            </div>
+                            <div class="input-field">
+                                <label for="from">From</label>
+                                <br>
+                                <input type="text" id="from">
+                                <br>
+                            </div>
+                            <div class="input-field">
+                                <label for="message">Message</label>
+                                <br>
+                                <textarea name="message" id="message" cols="30" rows="5" maxlength="350"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <h3>Schedule Delivery</h3>
+                    <div class="form1">
+                        <form>
+                            <div class="input-field">
+                                <label for="send">Send To <span>*</span></label>
+                                <br>
+                                <input type="send" id="send" required placeholder="Recipient Email">
+                                <br>
+                            </div>
+                            <div class="input-field">
+                                <label for="date">Delivery Date <span>*</span></label>
+                                <br>
+                                <input type="date" id="date">
+                                <br>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="submit">
+                      <button class="btn1">Add Another eGift Card</button>  
+                      <button class="btn2">Check out</button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

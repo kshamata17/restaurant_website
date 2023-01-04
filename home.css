@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.section1{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    color: white;
+    /* padding: 10px; */
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.section1 .header{
+    /* display: inline-block; */
+    margin: 0 auto;
+    padding: 3px;
+    font-family: 'Brush Script MT', cursive;
+}
+h1{
+    margin: 10px;
+    font-size: 30px;
+    
+}
+p{
+    margin: 10px;
+    font-size: 15px;
+}
+section{
+    padding: 40px 10%;
+}
+/* .bg{
+    margin-top: 10px;
+    background-image: url("images/img4.jpg");
+    /* background-blend-mode:soft-light; */
+    /* filter: brightness(.5); 
+    background-size: cover;
+    /* background-size: 1000px; 
+    background-repeat: no-repeat;
+}*/
+.home{
+    
+    width: 100%;
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    /* background: rgb(235, 220, 220); */
+}
+.home .home-text h2{
+    /* color: rgb(240, 90, 90); */
+    color: rgb(235, 51, 41);
+    /* font-weight: 1000; */
+    font-weight: bold;
+    font-size: 40px;
+    filter: brightness(1.5);
+}
+.home .home-text button{
+    background: rgb(240, 90, 90);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.home .home-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* transition: all .2s ease; */
+}
+.home .home-text button:hover{
+    transform: scale(1.1);
+}
+.home-img img{
+    max-width: 100%;
+    width: 1000px;
+    height: 100%;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    padding: 2px;
+    border: 5px inset rgb(240, 90, 90);
+    transition: .5s;
+}
+.home-img img:hover{
+    transform: rotate(10deg) scale(1.1);
+    /* transform: scale(1.5); */
+}
+.about{
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.8rem;
+    align-items: center;
+    /* background: rgb(235, 220, 220); */
+}
+.abput .about-text{
+    margin: 20px;
+    padding: 20px;
+}
+.about .about-text h2{
+    color: rgb(240, 90, 90);
+    font-size: 40px;
+}
+.about .about-text p{
+    /* color: rgb(240, 90, 90); */
+    color: black;
+    /* justify-content: center; */
+}
+/* .about .about-text a{
+    text-decoration: none;
+    padding: 2px;
+    font-size: 20px;
+    color: rgb(251, 148, 148);
+    /* transition: all .2s ease; 
+} */
+/* .about .about-text a:hover{
+    color: rgb(240, 90, 90); 
+} */
+.about-img img{
+    max-width: 100%;
+    width: 1000px;
+    height: 100%;
+    border-radius: 20px;
+    transform: rotate(-10deg);
+    padding: 2px;
+    border: 5px inset rgb(240, 90, 90);
+    transition: .5s;
+}
+.about-img img:hover{
+    transform: rotate(-10deg) scale(1.1) ;
+    /* transform: scale(1.5); */
+}
+.about .about-text button{
+    background: rgb(240, 90, 90);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.about .about-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* transition: all .2s ease; */
+}
+.about .about-text button:hover{
+    transform: scale(1.1);
+}
+.service-container{
+    display: flex;
+}
+.text .heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text .heading p{
+    color: rgb(240, 90, 90);
+}
+.text .heading h2{
+    color: rgb(240, 90, 90);
+}
+.s-box{
+    text-align: center;
+    padding: 20px 30px;
+    /* background: rgb(241, 199, 199); */
+}
+.s-box img{
+    width: 90px;
+}
+.s-box h3{
+    margin: 4px 0 10px;
+    color: rgb(240, 90, 90);
+    font-size: 1.2rem;
+}
+.s-box p{
+    line-height: 1.5;
+}
+.cta{
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(245, 220, 220);
+    line-height: 30px;
+}
+.cta h2{
+    margin-top: 10px;
+    color: rgb(240, 90, 90);
+}
+.cta button{
+    background: rgb(240, 90, 90);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+}
+.cta button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.cta button:hover{
+    /* background: rgb(251, 148, 148);  */
+    transform: scale(1.1);
+}.wrapper{
+    margin: 60px;
+    padding: 20px;
+    text-align: center;
+}
+.wrapper h2{
+    
+    text-align: center;
+    padding: 10px;
+    color:  rgb(240, 90, 90);
+}
+/*  */
+.card{
+    display: flex;
+    justify-content: center;
+    /* margin: 40px 0 40px 0; */
+    /* background: rgb(245, 220, 220); */
+    /* height: 200px; */
+}
+.card .card1{
+    width: 33.33%;
+    padding: 10px;
+}
+.details h4{
+    color:  rgb(240, 90, 90);
+}
+.details i{
+    padding: 10px;
+}
+.details .fa-solid {
+    font-size: 25px;
+    color: rgb(240, 90, 90);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact{
+    background: rgb(245, 209, 209);
+}
+.footer{
+    padding: 10px ;
+    
+}
+.col{
+    width: 33.33%;
+}
+.col h4{
+    font-size: 1.2rem;
+    color: rgb(240, 90, 90);
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: rgb(240, 90, 90);
+}
+.col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.col ul li{
+    list-style: none;
+}
+.col ul li a{
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+    text-decoration: none;
+    color: black;
+}
+.col ul li a:hover{
+    transform: translateX(5px);
+}
+.col .social{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col .social a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background: rgb(240, 90, 90);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+}
+.col .social a:hover{
+    transform: scale(1.2);
+    color: rgb(240, 90, 90);
+    background-color: white;
+}
